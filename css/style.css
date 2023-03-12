@@ -1,0 +1,205 @@
+html, body, #home{
+    height: 100%;
+}
+
+body{
+    background: #000;
+}
+
+
+
+/* Barra de navegação*/
+.header_color{
+    background: #0D0D0D;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #00DCED;
+    border-bottom: 0.5px solid #00DCED;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.3);
+}
+
+button:hover{
+    background: #00DCED;
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 7px 15px;
+}
+
+
+
+/* Principal */
+.principal{
+    text-align: center;
+}
+
+.destaque_principal{
+    color: white;
+    text-transform: uppercase;
+    background: #00DCED;
+    padding: 10px;
+}
+
+.btn-outline-dark{
+    color: white;
+    border-color: white;
+}
+
+.btn:hover{
+    background: #00DCED;
+}
+
+.principal h2{
+    color: white;
+    font-family: Courier New, monospace;
+    letter-spacing: -0.1em;
+    font-size: 40px;
+}
+
+.destaque{
+    color: #00DCED; 
+}
+
+.principal h1{
+    color: white;
+    font-size: 80px;
+    font-family: inherit;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.descricao_principal{
+    color: white;
+}
+
+.botao_principal{
+    width: 270px;
+    color: #000;
+    background: #00DCED;
+    font-weight: 600;
+}
+
+a.btn.botao_principal:hover{
+    background: #00B4C1;
+    color: #000;
+}
+
+/* Sobre */
+.foto_perfil{
+    height: 45rem;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.sobre1{
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--font-inter);
+    font-size: 15px;
+    letter-spacing: .3rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 80px;
+}
+
+.sobre1texto{
+    margin-left: 4px;
+}
+
+.sobre h3{
+    color: white;
+    text-align: left;
+}
+
+.sobre h5{
+    color: white;
+    text-align: left;
+}
+
+.mais_sobre{
+    color: white;
+    padding-top: 12px;
+}
+
+.botao_sobre1{
+    width: 160px;
+    color: #000;
+    background: #00DCED;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.botao_sobre1:hover{
+    background: #00B4C1;
+    color: #000;
+}
+
+.botao_sobre2{
+    width: 160px;
+    color: #00DCED;
+    background: #000;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.botao_sobre2:hover{
+    background: #00DCED;
+    color: #000;
+    transition: 1.5s;
+    border: #000;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .principal h2{
+        font-size: 22px;    
+    }
+    
+    .principal h1{
+        font-size: 45px;
+    }
+    .descricao_principal{
+        font-size: 14px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .principal h2{
+        font-size: 25px;    
+    }
+    
+    .principal h1{
+        font-size: 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .principal h2{
+        font-size: 35px;    
+    }
+    
+    .principal h1{
+        font-size: 68px;
+    }
+}
+
+
+
+
+
+
+
