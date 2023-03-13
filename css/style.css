@@ -43,6 +43,15 @@ button:hover{
     text-align: center;
 }
 
+.principal_destaque{
+    color: white;
+    background: #0F1116;
+    white-space: nowrap;
+    width: 220px;
+    height: 30px;
+    padding-top: 2px;
+}
+
 .destaque_principal{
     color: white;
     text-transform: uppercase;
@@ -117,12 +126,7 @@ a.btn.botao_principal:hover{
     margin-left: 4px;
 }
 
-.sobre h3{
-    color: white;
-    text-align: left;
-}
-
-.sobre h5{
+.sobre h3, .sobre h5{
     color: white;
     text-align: left;
 }
@@ -160,6 +164,290 @@ a.btn.botao_principal:hover{
     transition: 1.5s;
     border: #000;
 }
+
+
+
+/* Destaque */
+#destaque{
+    background: #0F1116;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.blocos{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sinal_mais{
+    color: #00DCED;
+}
+
+.destaque_tamanho{
+    font-weight: 800;
+    font-size: 70px;
+    color: white;
+}
+
+.destaque_frase{
+    color: #B5B5B5;
+}
+
+
+
+/* Qualificações */
+.qualificacoes{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.titulo_qualificacoes{
+    margin-bottom: 30px;
+    color: #00DCED;
+    font-size: 40px;
+}
+
+.carousel-indicators li{
+    background: #00DCED;
+}
+
+.cor_check{
+    color: white;
+}
+
+.bloco_certificados{
+    margin-top: 40px;
+    color: #00DCED;
+}
+
+.qualificacoes a{
+    text-decoration: none;
+    color: white;
+}
+
+.qualificacoes a:hover{
+    color: #00DCED;
+    border-bottom: 1px solid #00DCED;
+}
+
+.qualificacoes .botao_qualificacoes{
+    width: 160px;
+    color: #00DCED;
+    background: #000;
+    margin-top: 30px;
+    border: 1px solid #00DCED;
+}
+
+.qualificacoes .botao_qualificacoes:hover{
+    color: #000;
+    background: #00DCED;
+}
+
+.icone_qualificacoes{
+    margin-left: 5px;
+}
+
+/* Serviços */
+.servicos{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.servicos li{
+    list-style: none;
+    float: right;
+    color: white;
+}
+
+.servicos ul{
+    margin-right: 240px;
+}
+
+.divisor_servicos{
+    width: 1px;
+    background: #00DCED;
+    margin: 30px 30px;
+}
+
+.servicos h2{
+    font-weight: 800;
+    border-right: 1px solid #00DCED;
+    width: 330px;
+}
+
+.destaque_servicos{
+    color: #00DCED;
+}
+
+.paragrafo1_servicos{
+    color: #BFCCCC;
+    margin-top: 20px;
+}
+
+.servicos2{
+    margin-top: 150px;
+}
+
+.servicos2 h4{
+    font-size: 20px;
+    color: #CCCCBF;
+}
+
+.blocos_servicos1, .blocos_servicos2, .blocos_servicos3{
+    border: 2px solid #1C1C1C;
+    padding: 10px;
+}
+
+.blocos_servicos1 p, .blocos_servicos2 p, .blocos_servicos3 p{
+    color: #7A7A7A;
+}
+
+
+
+/* Conhecimento */
+#conhecimento{
+    text-align: center;
+}
+
+.conhecimento{
+    color: white;
+}
+
+.conhecimento i{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.conhecimento h2{
+    color: #00DCED;
+    margin-bottom: 25px;
+}
+
+.conhecimento1, .conhecimento2, .conhecimento3, .conhecimento4, .conhecimento5, .conhecimento6, .conhecimento7, .conhecimento8{
+    color: white;
+    float: left;
+    width: 260px;
+    background: #0D0D0D;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.conhecimento1 p, .conhecimento2 p, .conhecimento3 p, .conhecimento4 p,
+.conhecimento5 p, .conhecimento6 p, .conhecimento7 p, .conhecimento8 p{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.conhecimento1 p i, .conhecimento2 p i, .conhecimento3 p i, .conhecimento4 p i,
+.conhecimento5 p i, .conhecimento6 p i, .conhecimento7 p i, .conhecimento8 p i{
+    margin-right: 15px;
+    color: #00DCED;
+}
+
+.conhecimento img{
+    background: #00DCED;
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+
+
+/* Contato */
+#contato{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contato h1{
+    color: #00DCED;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contato h5{
+    color: white;
+    font-size: 17px;
+}
+
+.contato2{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.bloco_contato1 a, .bloco_contato2 a, .bloco_contato3 a{
+    color: #FFF;
+    width: 320px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.bloco_contato1 a:hover, .bloco_contato2 a:hover, .bloco_contato3 a:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    background: #000;
+}
+
+.contato i{
+    margin-top: 10px;
+}
+
+.check_ajustes1{
+    font-size: 25px;
+    margin-right: 8px;
+    color: #00DCED;
+}
+
+.check_ajustes2{
+    margin-left: 8px;
+}
+
+.contato .btn{
+    border: 1px solid #1C1C1C;
+}
+
+.btn_contato{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contato .btn_contato i{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #00DCED;
+}
+
+.btn_contato:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn_contato .icone{
+    animation: UpArrow 1s infinite;
+}
+
+
+
+/* Rodape */
+#rodape{
+    background: #0D0D0D;
+    height: 65px;
+    margin-top: 20px;
+}
+
+.rodape{
+    text-align: center;
+}
+
+.rodape p{
+    color: white;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -199,7 +487,25 @@ a.btn.botao_principal:hover{
 
 
 
-
+@keyframes Up {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes UpArrow {
+    from {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-0.5rem);
+    }
+}
 
 
 
