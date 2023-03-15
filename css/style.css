@@ -510,6 +510,10 @@ a.btn.botao_principal:hover{
     .conhecimento{
         margin-top: 100px;
     }
+    
+    .ajuste_conhecimento, .divisor{
+        display: none;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -574,6 +578,11 @@ a.btn.botao_principal:hover{
     .conhecimento .container{
         margin-left: 15px;
     }
+    
+    
+    .divisor{
+        display: none;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -616,6 +625,11 @@ a.btn.botao_principal:hover{
     .bloco_contato1 a, .bloco_contato2 a, .bloco_contato3 a{
         width: 230px;
     }
+    
+    
+    .divisor{
+        display: none;
+    }
 }
 
 @media (min-width: 991.98px) and (max-width: 1200px) {
@@ -642,6 +656,10 @@ a.btn.botao_principal:hover{
     }
     
     .bloco_contato1 a{
+    }
+    
+    .divisor{
+        display: none;
     }
 }
 
