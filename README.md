@@ -6,4 +6,4 @@ com o framework Bootstrap, JavaScript puro e usei o framework jQuery para coloca
 
 O projeto foi feito em 3 dias, 2 para fazer toda a parte de um site para desktop e 1 para deixar ele responsivo para aparelhos menores.
 
-E esse foi o resultado final: https://joaohenriqueportela.netlify.app/
+E esse foi o resultado final - https://joaohenriqueportela.netlify.app/ 
